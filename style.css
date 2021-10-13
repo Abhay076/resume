@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+}
+/*Body Header*/
+#body-header{
+	height: 65vh;
+	opacity: 0.8;
+	background-image: url(images/border-images.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 1.2rem;
+}
+/*horizental-list*/
+.horizental-list{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.horizental-list li{
+	display: inline-block;
+	padding: 0px 8px 8px 0px;
+}
+.horizental-list li a{
+	text-decoration: none;
+	color: white;
+	transition: color 0.5s , border-bottom 4s;
+}
+.horizental-list li a:hover{
+	color: red;
+	border-bottom: 1px solid white;
+}
+.text-center{
+	text-align: center;
+}
+#my-name{
+	font-size: 3rem;
+	color: white;
+	/*padding-top: 100px;*/
+	letter-spacing: 0.1rem;
+	font-weight: 700;
+	/*margin-bottom: */
+	margin-bottom: 0.5rem;
+}
+#name-social-container{
+	margin-top: 20vh;
+}
